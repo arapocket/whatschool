@@ -8,7 +8,7 @@ import { CompaniesPage } from "../companies/companies"
   template: 
   `
 
-  <ion-tabs>
+  <ion-tabs >
 <ion-tab [root] = "schoolsPage" tabTitle = "Schools" tabIcon = "school" > </ion-tab>
 <ion-tab [root] = "companiesPage"  tabTitle = "Companies" tabIcon = "cash"> </ion-tab>
 
