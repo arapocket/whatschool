@@ -8,13 +8,17 @@ import { MyApp } from './app.component';
 import { TabsPage } from '../pages/tabs/tabs';
 import { CompaniesPage } from '../pages/companies/companies';
 import { SchoolsPage } from "../pages/schools/schools";
+import { SchoolPage } from "../pages/school/school";
+import { CompanyPage } from "../pages/company/company";
 
 @NgModule({
   declarations: [
     MyApp,
     TabsPage,
     SchoolsPage,
-    CompaniesPage
+    CompaniesPage,
+    SchoolPage,
+    CompanyPage
   ],
   imports: [
     BrowserModule,
@@ -25,7 +29,9 @@ import { SchoolsPage } from "../pages/schools/schools";
     MyApp,
     TabsPage,
     SchoolsPage,
-    CompaniesPage
+    CompaniesPage,
+    SchoolPage,
+    CompanyPage
   ],
   providers: [
     StatusBar,
