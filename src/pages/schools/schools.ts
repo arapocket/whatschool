@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Data} from '../../data/data.interface'
-import datas from '../../data/data'
+import {School} from '../../data/data.interface'
+import data from '../../data/data'
 
 
 
@@ -10,10 +10,10 @@ import datas from '../../data/data'
 })
 export class SchoolsPage implements OnInit {
 
-dataCollection: {datas: Data[]}[];
+dataCollection: {schools: School[]}[];
 
 ngOnInit() {
-  this.dataCollection = datas;
+  this.dataCollection = data;
 
 }
 }

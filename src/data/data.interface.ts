@@ -1,4 +1,4 @@
-export interface Data {
+export interface School {
     school: string;
     total: number;
     facebook: number;
@@ -38,5 +38,7 @@ export interface Data {
     delphi: number;
     workday: number;
     expedia: number;
-
 }
+
+
+
