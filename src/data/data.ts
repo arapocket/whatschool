@@ -1,10 +1,10 @@
-export default [{
-
-  schools: [
-
+export default [
+  
+  {
+school: 'purdue',
+total: 46039,
+  companies: [
     {
-      school: 'purdue',
-      total: 46039,
       facebook: 0,
       google: 0,
       apple: 0,
@@ -42,10 +42,14 @@ export default [{
       delphi: 283,
       workday: 0,
       expedia: 0
-    },
-    {
-      school: 'uc berkeley',
-      total: 41036,
+    }
+  ]
+},
+   { 
+    school: 'UC Berkeley',
+    total: 41036,
+    companies: [
+      {
       facebook: 254,
       google: 1266,
       apple: 650,
@@ -83,10 +87,13 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]
+  },
+       { 
+    school: 'Georgia Tech',
+    total: 40393,
+    companies: [
     {
-      school: 'georgia tech',
-      total: 40393,
       facebook: 0,
       google: 485,
       apple: 284,
@@ -124,10 +131,15 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    
+    }]
+      },
+
+      { 
+    school: 'Stanford',
+    total: 31395,
+    companies: [
     {
-      school: 'stanford',
-      total: 31395,
       facebook: 318,
       google: 1431,
       apple: 821,
@@ -165,10 +177,13 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]
+      },
+    { 
+    school: 'SJSU',
+    total: 30960,
+    companies: [
     {
-      school: 'sjsu',
-      total: 30960,
       facebook: 0,
       google: 253,
       apple: 608,
@@ -206,10 +221,13 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
+    }]
     },
+    { 
+    school: 'UCLA',
+    total: 30931,
+    companies: [
     {
-      school: 'ucla',
-      total: 30931,
       facebook: 0,
       google: 584,
       apple: 297,
@@ -247,10 +265,16 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
+    }
+    ]
     },
+           
+    { 
+    school: 'USC',
+    total: 30264,
+    companies: [
     {
-      school: 'usc',
-      total: 30264,
+
       facebook: 0,
       google: 486,
       apple: 327,
@@ -288,10 +312,14 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
+    }]
     },
+           { 
+    school: 'MIT',
+    total: 25495,
+    companies: [
     {
-      school: 'mit',
-      total: 25495,
+
       facebook: 0,
       google: 763,
       apple: 285,
@@ -329,10 +357,14 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]
+           },
+           { 
+    school: 'UCSD',
+    total: 24052,
+    companies: [
     {
-      school: 'ucsd',
-      total: 24052,
+
       facebook: 0,
       google: 463,
       apple: 0,
@@ -370,10 +402,14 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]
+           },
+           { 
+    school: 'NYU',
+    total: 22649,
+    companies: [
     {
-      school: 'nyu',
-      total: 22649,
+
       facebook: 0,
       google: 344,
       apple: 99,
@@ -411,10 +447,14 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]
+           },
+       { 
+    school: 'Carnegie',
+    total: 22513,
+    companies: [
     {
-      school: 'carnegie',
-      total: 22513,
+
       facebook: 247,
       google: 1274,
       apple: 477,
@@ -452,10 +492,14 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]
+       },
+           { 
+    school: 'Cambridge',
+    total: 22334,
+    companies: [
     {
-      school: 'cambridge',
-      total: 22334,
+
       facebook: 0,
       google: 218,
       apple: 0,
@@ -493,10 +537,15 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]
+           },
+
+           { 
+    school: 'Cornell',
+    total: 21318,
+    companies: [
     {
-      school: 'cornell',
-      total: 21318,
+
       facebook: 116,
       google: 557,
       apple: 169,
@@ -534,10 +583,14 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]
+           },
+           { 
+    school: 'UC Davis',
+    total: 19969,
+    companies: [
     {
-      school: 'uc davis',
-      total: 19969,
+
       facebook: 0,
       google: 272,
       apple: 262,
@@ -575,10 +628,13 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'Cal Poly SLO',
+    total: 19651,
+    companies: [
     {
-      school: 'cal poly slo',
-      total: 19651,
+
       facebook: 0,
       google: 174,
       apple: 271,
@@ -616,10 +672,13 @@ export default [{
       delphi: 0,
       workday: 129,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'SDSU',
+    total: 19537,
+    companies: [
     {
-      school: 'san diego state univ',
-      total: 19537,
+
       facebook: 0,
       google: 0,
       apple: 118,
@@ -657,10 +716,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'UC Irvine',
+    total: 19480,
+    companies: [
     {
-      school: 'uc irvine',
-      total: 19480,
       facebook: 0,
       google: 292,
       apple: 155,
@@ -698,10 +759,13 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'Cal Poly Pomona',
+    total: 15727,
+    companies: [
     {
-      school: 'cal poly pomona',
-      total: 15727,
+
       facebook: 0,
       google: 0,
       apple: 54,
@@ -739,10 +803,13 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'UCSB',
+    total: 15035,
+    companies: [
     {
-      school: 'ucsb',
-      total: 15035,
+
       facebook: 0,
       google: 209,
       apple: 187,
@@ -780,10 +847,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'San Francisco State',
+    total: 14235,
+    companies: [
     {
-      school: 'san francisco state',
-      total: 14235,
       facebook: 0,
       google: 96,
       apple: 180,
@@ -821,10 +890,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'CSULB',
+    total: 14066,
+    companies: [
     {
-      school: 'csu long beach',
-      total: 14066,
       facebook: 0,
       google: 0,
       apple: 56,
@@ -862,10 +933,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'Oxford',
+    total: 13790,
+    companies: [
     {
-      school: 'oxford',
-      total: 13790,
       facebook: 0,
       google: 130,
       apple: 0,
@@ -903,10 +976,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'Columbia',
+    total: 13741,
+    companies: [
     {
-      school: 'columbia univ',
-      total: 13741,
       facebook: 101,
       google: 359,
       apple: 79,
@@ -944,10 +1019,13 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'CSUN',
+    total: 13316,
+    companies: [
     {
-      school: 'csun',
-      total: 13316,
+
       facebook: 0,
       google: 0,
       apple: 62,
@@ -985,10 +1063,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'Harvard',
+    total: 12863,
+    companies: [
     {
-      school: 'harvard',
-      total: 12863,
       facebook: 75,
       google: 270,
       apple: 110,
@@ -1026,10 +1106,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'Cal State Fullerton',
+    total: 12287,
+    companies: [
     {
-      school: 'cal state fullerton',
-      total: 12287,
       facebook: 0,
       google: 0,
       apple: 51,
@@ -1067,10 +1149,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'UC Santa Cruz',
+    total: 10905,
+    companies: [
     {
-      school: 'uc santa cruz',
-      total: 10905,
       facebook: 0,
       google: 216,
       apple: 186,
@@ -1108,10 +1192,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'CSU Chico',
+    total: 8786,
+    companies: [
     {
-      school: 'csu chico',
-      total: 8786,
       facebook: 0,
       google: 0,
       apple: 50,
@@ -1149,10 +1235,12 @@ export default [{
       delphi: 0,
       workday: 45,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'Santa Clara',
+    total: 8774,
+    companies: [
     {
-      school: 'santa clara univ',
-      total: 8774,
       facebook: 0,
       google: 145,
       apple: 213,
@@ -1190,10 +1278,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'UCR',
+    total: 7157,
+    companies: [
     {
-      school: 'uc riverside',
-      total: 7157,
       facebook: 0,
       google: 89,
       apple: 48,
@@ -1231,10 +1321,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'CSULA',
+    total: 6591,
+    companies: [
     {
-      school: 'csula',
-      total: 6591,
       facebook: 0,
       google: 0,
       apple: 0,
@@ -1272,10 +1364,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'Caltech',
+    total: 5144,
+    companies: [
     {
-      school: 'caltech',
-      total: 5144,
       facebook: 56,
       google: 233,
       apple: 82,
@@ -1313,10 +1407,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'CSU Dominguez Hills',
+    total: 3103,
+    companies: [
     {
-      school: 'csu dominguez hills',
-      total: 3103,
       facebook: 0,
       google: 0,
       apple: 0,
@@ -1354,10 +1450,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'Hack Reactor',
+    total: 1520,
+    companies: [
     {
-      school: 'hack reactor',
-      total: 1520,
       facebook: 8,
       google: 18,
       apple: 0,
@@ -1395,10 +1493,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'Code Fellows',
+    total: 618,
+    companies: [
     {
-      school: 'code fellows',
-      total: 618,
       facebook: 0,
       google: 0,
       apple: 0,
@@ -1436,10 +1536,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 17
-    },
+    }]},
+           { 
+    school: 'App Academy',
+    total: 468,
+    companies: [
     {
-      school: 'app academy',
-      total: 468,
       facebook: 0,
       google: 18,
       apple: 0,
@@ -1477,10 +1579,12 @@ export default [{
       delphi: 0,
       workday: 0,
       expedia: 0
-    },
+    }]},
+           { 
+    school: 'Hackbright Academy',
+    total: 177,
+    companies: [
     {
-      school: 'hackbright academy',
-      total: 177,
       facebook: 0,
       google: 3,
       apple: 1,
