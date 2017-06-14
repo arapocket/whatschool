@@ -1,4 +1,4 @@
-export interface Companies {
+export interface School {
     facebook: number;
     google: number;
     apple: number;
