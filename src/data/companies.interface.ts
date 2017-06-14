@@ -1,6 +1,4 @@
-export interface School {
-    school: string;
-    total: number;
+export interface Companies {
     facebook: number;
     google: number;
     apple: number;
