@@ -11,6 +11,7 @@ import { CompaniesPage } from '../pages/companies/companies';
 import { SchoolsPage } from "../pages/schools/schools";
 import { SchoolPage } from "../pages/school/school";
 import { CompanyPage } from "../pages/company/company";
+import { SchoolsProvider } from '../providers/schools/schools';
 
 
 
@@ -44,6 +45,7 @@ import { CompanyPage } from "../pages/company/company";
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
+    SchoolsProvider,
     
   ]
 })
