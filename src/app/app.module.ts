@@ -3,6 +3,7 @@ import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
+import { HttpModule } from '@angular/http'
 
 import { MyApp } from './app.component';
 import { TabsPage } from '../pages/tabs/tabs';
@@ -11,6 +12,11 @@ import { SchoolsPage } from "../pages/schools/schools";
 import { SchoolPage } from "../pages/school/school";
 import { CompanyPage } from "../pages/company/company";
 
+import { SchoolListComponent } from "../data/school-list.component";
+import { routing } from "./app.routing";
+
+
+
 @NgModule({
   declarations: [
     MyApp,
@@ -18,11 +24,15 @@ import { CompanyPage } from "../pages/company/company";
     SchoolsPage,
     CompaniesPage,
     SchoolPage,
-    CompanyPage
+    CompanyPage,
+    SchoolListComponent
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    HttpModule,
+    routing
+
   ],
   bootstrap: [IonicApp],
   entryComponents: [

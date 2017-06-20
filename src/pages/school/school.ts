@@ -6,7 +6,7 @@ import { School } from "../../data/school.interface";
 
 @Component({
   selector: 'page-school',
-  templateUrl: 'school.html',
+  templateUrl: 'school.html'
 })
 export class SchoolPage implements OnInit {
 

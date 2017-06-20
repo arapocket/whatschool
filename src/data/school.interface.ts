@@ -1,3 +1,6 @@
+
+
+
 export interface School {
     facebook: number;
     google: number;

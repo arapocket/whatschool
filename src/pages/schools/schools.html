@@ -7,29 +7,21 @@
 </ion-header>
 
 
-<ion-content padding >
+<ion-content padding>
 
-<ion-list>
-  <ion-item
-  
-            *ngFor = " let dataGroup of dataCollection"
- >
-          <ion-avatar item-start>
-            <!--<img src="http://dataomaha.com/media/gameday/images/Purdue_1.png">-->
-          </ion-avatar>
-          
-          <button ion-button color = "secondary" 
-          
-          
-          [navPush] = "schoolPage" [navParams] = "dataGroup"
-          
-          >
+  <ion-list>
+    <ion-item *ngFor=" let dataGroup of dataCollection">
+      <ion-avatar item-start>
+        <!--<img src="http://dataomaha.com/media/gameday/images/Purdue_1.png">-->
+      </ion-avatar>
+
+      <button ion-button color="secondary" [navPush]="schoolPage" [navParams]="dataGroup">
           <h2>{{dataGroup.school | uppercase}}</h2>
           
           </button>
-          <p>{{dataGroup.total}} Alumni</p>
+      <p>{{dataGroup.total}} Alumni</p>
 
-  </ion-item>
-</ion-list>
+    </ion-item>
+  </ion-list>
 
 </ion-content>
