@@ -12,8 +12,6 @@ import { SchoolsPage } from "../pages/schools/schools";
 import { SchoolPage } from "../pages/school/school";
 import { CompanyPage } from "../pages/company/company";
 
-import { SchoolListComponent } from "../data/school-list.component";
-import { routing } from "./app.routing";
 
 
 
@@ -24,14 +22,13 @@ import { routing } from "./app.routing";
     SchoolsPage,
     CompaniesPage,
     SchoolPage,
-    CompanyPage,
-    SchoolListComponent
+    CompanyPage
   ],
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
     HttpModule,
-    routing
+    
 
   ],
   bootstrap: [IonicApp],
